@@ -32,7 +32,7 @@ class School(QMainWindow):
     
         
         layout = QGridLayout()
-        self.lbl_0 = QLabel("Добавить ученика")
+        self.lbl = QLabel("Добавить ученика")
         self.lbl_1 = QLabel("Добавить ФИО")
         self.full_name = QLineEdit()
         self.lbl_3 = QLabel("Выбрать класс")
